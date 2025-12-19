@@ -127,7 +127,7 @@ Update HAProxy with the Helm chart:
 helm upgrade haproxy-kubernetes-ingress -f tcp-ports.yml haproxytech/kubernetes-ingress --namespace haproxy-controller
 ```
 
-This will apply your TCP mappings and ensure HAProxy routes external traffic to your backend services.
+This will apply your TCP mappings and ensure HAProxy routes external traffic to your backend services!
 
 ### How It Works with MetalLB
 
